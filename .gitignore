@@ -1,0 +1,34 @@
+# Thư viện và cấu hình bí mật
+node_modules/
+.env
+
+# Dữ liệu vận hành — nặng vài GB, không đẩy lên GitHub.
+# Bản đầy đủ nằm trong gói nén bàn giao.
+restructuring_data/
+uploads/
+upload2/
+du-lieu-day-du.jsonl.gz
+
+# Kết quả gỡ lỗi sinh ra khi chạy
+debug_output/
+debug_text/
+debug_sentences/
+kiem_thu/
+*.log
+debug_plagiarism.txt
+diff.txt
+docx_sentences.txt
+pdf_sentences.txt
+sentence_mapping.json
+output.json
+
+# Tệp tạm của hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+
+# File Word/Excel sinh ra lúc export — không đẩy lên git
+*.docx
+*.xlsx
+
+# Báo cáo mẫu do quản trị viên bổ sung qua trang Quản lý tài liệu
+nguon_moi_bo_sung/
